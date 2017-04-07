@@ -7,4 +7,6 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    #admin/으로 시작하는 모든 url을 장고가 view와 대조해 찾아 낸다.
+    url(r'', include('blog.urls')),   
 ]
