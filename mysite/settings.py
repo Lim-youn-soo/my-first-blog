@@ -25,7 +25,7 @@ SECRET_KEY = 'qi$^o6-s+pkaltj9=zszb6k&)avim$#&(p1q*2@@m=boq!zv%+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maekung.pythonanywhere.com']
 
 
 # Application definition
